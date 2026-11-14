@@ -1,0 +1,3042 @@
+{
+  "schemaVersion": "1.0",
+  "id": "trung-thu-cho-em-2026",
+  "title": "Trung Thu Cho Em – Lồng đèn thắp sáng ước mơ",
+  "description": "Bộ slide đêm hội Trung thu 2026 – ý tưởng Đêm trăng rối nước",
+  "author": "Trường TH&THCS Thực hành Sư phạm",
+  "language": "vi",
+  "aspectRatio": "16:9",
+  "theme": {
+    "base": "luxury-black-gold",
+    "colors": {
+      "primary": "#C8102E",
+      "secondary": "#1F6F8B",
+      "accent": "#F6C445",
+      "background": "#0B1A33",
+      "surface": "#14284A",
+      "text": "#FFF7E6"
+    },
+    "fonts": {
+      "heading": "Playfair Display",
+      "body": "Be Vietnam Pro"
+    }
+  },
+  "globalStyles": {
+    "slideNumbers": false
+  },
+  "slides": [
+    {
+      "id": "s01-mo-man",
+      "section": "Mở màn",
+      "layout": "hero",
+      "content": {
+        "eyebrow": "Trường TH&THCS Thực hành Sư phạm · Năm 2026",
+        "heading": "TRUNG THU CHO EM",
+        "subheading": "LỒNG ĐÈN THẮP SÁNG ƯỚC MƠ",
+        "image": {
+          "query": "Vietnamese water puppet theatre pavilion on a pond at night",
+          "alt": "Thủy đình rối nước bên ao làng dưới ánh trăng đêm Trung thu"
+        }
+      },
+      "animationPreset": "cinematic",
+      "elements": [
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1560,
+          "y": 30,
+          "width": 260,
+          "height": 260,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "lantern",
+          "type": "shape",
+          "x": 140,
+          "y": 700,
+          "width": 150,
+          "height": 150,
+          "zIndex": 3,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent",
+            "stroke": {
+              "color": "$primary",
+              "width": 6
+            }
+          },
+          "animation": [
+            {
+              "effect": "motionCurve",
+              "trigger": "onEnter",
+              "duration": 7000,
+              "easing": "easeInOut",
+              "path": {
+                "type": "curve",
+                "dx": 700,
+                "dy": -420
+              }
+            }
+          ]
+        },
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 900,
+          "width": 1920,
+          "height": 180,
+          "opacity": 0.6,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "onEnter",
+              "duration": 1400,
+              "easing": "easeOut"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 900
+      },
+      "notes": "Slide mở màn, chiếu khi chương trình bắt đầu: lồng đèn bay trên mặt nước, ánh trăng rằm rọi xuống thủy đình.\nChương trình văn nghệ “TRUNG THU CHO EM”, chủ đề “LỒNG ĐÈN THẮP SÁNG ƯỚC MƠ”, Trường TH&THCS Thực hành Sư phạm, năm 2026."
+    },
+    {
+      "id": "s02-bai-tho-mo-dau",
+      "section": "Mở màn",
+      "layout": "quote",
+      "content": {
+        "eyebrow": "Bài thơ mở đầu",
+        "quote": {
+          "text": "Trung thu trăng sáng như gương,\nTrẻ em vui hội, phố phường xôn xao.\nĐèn hoa rực rỡ muôn màu,\nTiếng cười em nhỏ hòa cùng trăng thu."
+        }
+      },
+      "animationPreset": "apple",
+      "elements": [
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1620,
+          "y": 40,
+          "width": 220,
+          "height": 220,
+          "opacity": 0.85,
+          "zIndex": 1,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 920,
+          "width": 1920,
+          "height": 160,
+          "opacity": 0.5,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "onEnter",
+              "duration": 1200,
+              "easing": "easeOut"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "dissolve",
+        "duration": 900
+      },
+      "notes": "I. TUYÊN BỐ LÝ DO\nKính thưa quý đại biểu, quý phụ huynh, quý thầy cô giáo và các em học sinh thân mến!\n“Trung thu trăng sáng như gương, Trẻ em vui hội, phố phường xôn xao. Đèn hoa rực rỡ muôn màu, Tiếng cười em nhỏ hòa cùng trăng thu.”\nKhi những cơn gió dịu dàng của mùa thu khẽ về, khi ánh trăng tháng Tám bắt đầu tròn đầy trên bầu trời, cũng là lúc trong lòng mỗi chúng ta lại ngân lên những giai điệu thật thân thương về Tết Trung thu – Tết của thiếu nhi, Tết của đoàn viên và yêu thương."
+    },
+    {
+      "id": "s03-ly-do-to-chuc",
+      "section": "Mở màn",
+      "layout": "fullImage",
+      "content": {
+        "eyebrow": "Lý do tổ chức",
+        "heading": "Một đêm hội vui tươi – an toàn – đoàn kết – yêu thương",
+        "image": {
+          "query": "full moon over lotus pond night",
+          "alt": "Trăng rằm trên ao sen về đêm"
+        }
+      },
+      "animationPreset": "cinematic",
+      "transition": {
+        "type": "fade",
+        "duration": 900
+      },
+      "notes": "Kính thưa quý vị! Có lẽ trong ký ức tuổi thơ của mỗi người, Trung thu luôn là một miền ký ức thật đẹp. Đó là đêm trăng sáng, là chiếc đèn ông sao lung linh trên tay, là tiếng trống tùng… tùng… tùng… rộn ràng gọi hội; là những bước chân háo hức theo đoàn múa lân, là tiếng cười trong trẻo của trẻ thơ và là khoảnh khắc cả gia đình cùng quây quần bên mâm cỗ trông trăng.\nVà hôm nay, những ký ức đẹp đẽ ấy lại được viết tiếp bằng niềm vui, sự háo hức và những nụ cười của các em học sinh Trường TH&THCS Thực hành Sư phạm. Trong không khí vui tươi, ấm áp của mùa Trung thu năm nay, với mong muốn mang đến cho các em một đêm hội vui tươi – an toàn – đoàn kết – yêu thương, đồng thời tạo nên một sân chơi bổ ích để các em được vui chơi, giao lưu và lưu giữ những kỷ niệm đẹp của tuổi thơ, đó chính là lý do để Trường TH&THCS Thực hành Sư phạm long trọng tổ chức chương trình văn nghệ “TRUNG THU CHO EM” với chủ đề “LỒNG ĐÈN THẮP SÁNG ƯỚC MƠ”, năm 2026."
+    },
+    {
+      "id": "s04-gioi-thieu-dai-bieu",
+      "section": "Giới thiệu đại biểu",
+      "layout": "threeColumns",
+      "content": {
+        "eyebrow": "Trân trọng giới thiệu",
+        "heading": "Đại biểu về dự đêm hội",
+        "columns": [
+          {
+            "heading": "Đại biểu khách mời",
+            "bullets": [
+              "[Họ tên – chức vụ]",
+              "[Họ tên – chức vụ]",
+              "[Họ tên – chức vụ]",
+              "[Họ tên – chức vụ]"
+            ]
+          },
+          {
+            "heading": "Ban đại diện CMHS",
+            "bullets": [
+              "Ông Mai Xuân Phương – Trưởng ban Ban đại diện cha mẹ học sinh",
+              "[Họ tên – chức vụ]",
+              "[Họ tên – chức vụ]"
+            ]
+          },
+          {
+            "heading": "Lãnh đạo nhà trường",
+            "bullets": [
+              "Cô Dương Thị Mười – Bí thư Đảng bộ, Hiệu trưởng",
+              "Thầy Nguyễn Văn Chương – Phó Hiệu trưởng"
+            ]
+          }
+        ]
+      },
+      "animationPreset": "education",
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 960,
+          "width": 1920,
+          "height": 120,
+          "opacity": 0.5,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        }
+      ],
+      "transition": {
+        "type": "wipe",
+        "direction": "up",
+        "duration": 900
+      },
+      "notes": "GIỚI THIỆU ĐẠI BIỂU\nĐến với chương trình văn nghệ “Trung thu cho em”, chủ đề “Lồng đèn thắp sáng ước mơ” năm 2026:\n- Về phía đại biểu khách mời, chúng tôi xin trân trọng giới thiệu và đón tiếp: Đ/c [……] (4 vị).\n- Về phía Ban Đại diện CMHS trường Thực hành Sư phạm: Ông Mai Xuân Phương – Trưởng ban Ban đại diện cha mẹ học sinh trường THSP; Ông (bà) [……]; Ông (bà) [……].\n- Về phía lãnh đạo nhà trường: Cô Dương Thị Mười – Bí thư Đảng bộ, Hiệu trưởng nhà trường Thực hành Sư phạm; Thầy Nguyễn Văn Chương – Phó Hiệu trưởng nhà trường.\nCùng toàn thể giáo viên, nhân viên, phó, trưởng ban đại diện cha mẹ học sinh các lớp và tất cả các em học sinh tiểu học trường TH&THCS THSP cùng dự đông đủ. Đề nghị chúng ta hoan nghênh chung!"
+    },
+    {
+      "id": "s05-chuong-trinh",
+      "section": "Chương trình",
+      "layout": "agenda",
+      "content": {
+        "eyebrow": "Chương trình đêm hội",
+        "heading": "Chương trình đêm hội",
+        "items": [
+          {
+            "title": "Tuyên bố lý do – Giới thiệu đại biểu"
+          },
+          {
+            "title": "Phát biểu chào mừng, khai mạc đêm hội"
+          },
+          {
+            "title": "Đọc thư chúc mừng Trung thu của Tổng Bí thư, Chủ tịch nước"
+          },
+          {
+            "title": "Trao học bổng"
+          },
+          {
+            "title": "Thắp đèn, phá cỗ"
+          },
+          {
+            "title": "Biểu diễn văn nghệ"
+          },
+          {
+            "title": "Bế mạc"
+          }
+        ]
+      },
+      "animationPreset": "education",
+      "elements": [
+        {
+          "id": "lantern",
+          "type": "shape",
+          "x": 1700,
+          "y": 80,
+          "width": 120,
+          "height": 120,
+          "zIndex": 2,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          },
+          "animation": [
+            {
+              "effect": "pulse",
+              "trigger": "afterPrevious",
+              "duration": 1200,
+              "repeat": 2
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 700
+      },
+      "notes": "II. THÔNG QUA CHƯƠNG TRÌNH\nSau đây, tôi xin được phép thông qua nội dung chương trình văn nghệ “Trung thu cho em” chủ đề “Lồng đèn thắp sáng ước mơ” năm 2026 của trường Thực hành Sư phạm: một là tuyên bố lý do – giới thiệu đại biểu; hai là phát biểu chào mừng, khai mạc đêm hội; ba là đọc thư chúc mừng Trung thu của Tổng Bí thư, Chủ tịch nước; bốn là trao học bổng; năm là thắp đèn, phá cỗ; sáu là biểu diễn văn nghệ; bảy là bế mạc."
+    },
+    {
+      "id": "s06-khai-mac",
+      "section": "Khai mạc",
+      "layout": "splitScreen",
+      "content": {
+        "eyebrow": "Phát biểu khai mạc",
+        "heading": "Phát biểu chào mừng, khai mạc đêm hội",
+        "subheading": "Cô Dương Thị Mười",
+        "body": "Bí thư Đảng bộ, Hiệu trưởng nhà trường",
+        "image": {
+          "query": "Vietnamese water puppet theatre pavilion on a pond at night",
+          "alt": "Thủy đình rối nước bên ao làng dưới trăng rằm"
+        }
+      },
+      "animationPreset": "apple",
+      "transition": {
+        "type": "dissolve",
+        "duration": 800
+      },
+      "notes": "Để mở đầu cho buổi họp mặt mừng Tết Trung thu, xin trân trọng giới thiệu và kính mời cô Dương Thị Mười – Bí thư Đảng bộ, Hiệu trưởng trường THSP phát biểu chào mừng, khai mạc chương trình.\n— Sau phát biểu: Xin cảm ơn cô Dương Thị Mười với phần phát biểu rất ý nghĩa."
+    },
+    {
+      "id": "s07-thu-chuc-mung",
+      "section": "Thư chúc mừng",
+      "layout": "imageRight",
+      "content": {
+        "eyebrow": "Thư chúc mừng Trung thu",
+        "heading": "Thư của Tổng Bí thư, Chủ tịch nước Tô Lâm",
+        "subheading": "gửi thiếu nhi cả nước",
+        "body": "Người đọc thư: [Họ tên đại biểu]",
+        "image": {
+          "query": "Vietnamese children holding star lanterns mid-autumn",
+          "alt": "Các em nhỏ Việt Nam cầm đèn ông sao đêm Trung thu"
+        }
+      },
+      "animationPreset": "education",
+      "transition": {
+        "type": "wipe",
+        "direction": "up",
+        "duration": 900
+      },
+      "notes": "Các em học sinh thân mến! Lúc sinh thời Bác Hồ kính yêu đã luôn dành cho trẻ thơ những tình cảm tốt đẹp nhất. Cứ mỗi dịp Tết Trung thu Bác lại gửi thư cho các cháu thiếu nhi. Phát huy truyền thống tốt đẹp đó, với niềm yêu quý và chăm lo cho tuổi thơ, khi Bác đi xa các bác lãnh đạo Đảng, Nhà nước vẫn luôn quan tâm đến trẻ thơ mỗi dịp Trung thu về. Trung thu năm nay Bác Tô Lâm – Tổng Bí thư, Chủ tịch nước đã gửi thư khen ngợi, động viên và chúc Tết các cháu thiếu nhi.\nSau đây xin trân trọng giới thiệu và kính mời đồng chí [……] lên đọc thư của Tổng Bí thư, Chủ tịch nước gửi thiếu nhi cả nước. Trân trọng kính mời đồng chí!\n— Sau khi đọc thư: Xin cảm ơn lãnh đạo phường đã đọc thư chúc mừng Trung thu của Chủ tịch nước cho các bạn học sinh trường THSP."
+    },
+    {
+      "id": "s08-ban-long-den",
+      "section": "Học bổng",
+      "layout": "bigNumber",
+      "content": {
+        "eyebrow": "Chi đoàn Thực hành Sư phạm phát động trong 2 tuần",
+        "heading": "Bán lồng đèn gây quỹ",
+        "stats": [
+          {
+            "value": "[…… đồng]",
+            "label": "quyên góp vào quỹ học bổng"
+          }
+        ]
+      },
+      "animationPreset": "data",
+      "elements": [
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1600,
+          "y": 40,
+          "width": 240,
+          "height": 240,
+          "opacity": 0.85,
+          "zIndex": 1,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 920,
+          "width": 1920,
+          "height": 160,
+          "opacity": 0.55,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        }
+      ],
+      "transition": {
+        "type": "zoom",
+        "duration": 800
+      },
+      "notes": "PHÁT HỌC BỔNG TỪ PHONG TRÀO BÁN LỒNG ĐÈN GÂY QUỸ\nKính thưa quý đại biểu, quý phụ huynh, quý thầy cô cùng các em học sinh thân mến! Trong hai tuần vừa qua, Chi đoàn Thực hành Sư phạm đã phát động phong trào bán lồng đèn gây quỹ tặng học bổng cho học sinh khó khăn trong nhà trường vào dịp Trung thu. Mỗi chiếc lồng đèn bán ra không chỉ đem lại niềm vui cho các bạn nhỏ mà còn góp thêm một phần bé nhỏ để các bạn học sinh có hoàn cảnh khó khăn trong nhà trường có được một mùa Trung thu trọn vẹn nhất. Phong trào được quý phụ huynh và các em học sinh ủng hộ nhiệt tình.\nKết thúc chương trình, ban tổ chức đã thu được số tiền đóng góp vào quỹ học bổng là [……] đồng. [Điền số tiền thực tế trước khi chiếu.] Một lần nữa xin cảm ơn và ghi nhận tấm lòng của quý phụ huynh và các em học sinh đã tích cực tham gia, góp phần tạo nên thành công ngoài mong đợi của hoạt động Bán lồng đèn gây quỹ do chi đoàn tổ chức."
+    },
+    {
+      "id": "s09-trao-hoc-bong",
+      "section": "Học bổng",
+      "layout": "statistics",
+      "content": {
+        "eyebrow": "Quà Trung thu yêu thương",
+        "heading": "Trao học bổng",
+        "stats": [
+          {
+            "value": "11",
+            "label": "suất học bổng"
+          },
+          {
+            "value": "500.000 đồng",
+            "label": "mỗi suất học bổng"
+          },
+          {
+            "value": "01",
+            "label": "phần bánh Trung thu"
+          }
+        ],
+        "body": "Bánh do Bà Trần Tiểu Quyên – phụ huynh em Vưu Nhã Hân, lớp 2D (cơ sở bánh bía Lập Hưng) tài trợ"
+      },
+      "animationPreset": "data",
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 950,
+          "width": 1920,
+          "height": 130,
+          "opacity": 0.5,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 700
+      },
+      "notes": "Sau đây, cô xin mời [……] em học sinh có tên lên sân khấu để nhận những món quà Trung thu yêu thương. Mỗi phần quà gồm 01 suất học bổng trị giá 500.000 đồng và 01 phần bánh Trung thu do Bà Trần Tiểu Quyên – phụ huynh em Vưu Nhã Hân, lớp 2D (cơ sở bánh bía Lập Hưng) tài trợ.\nCô mời các em có tên trong danh sách ở hai slide tiếp theo."
+    },
+    {
+      "id": "s10-danh-sach-1",
+      "section": "Học bổng",
+      "layout": "cardGrid",
+      "content": {
+        "eyebrow": "Danh sách học sinh nhận học bổng (1/2)",
+        "heading": "Cô mời các em",
+        "items": [
+          {
+            "title": "Huỳnh Trung Tín",
+            "text": "1B cũ",
+            "icon": "star"
+          },
+          {
+            "title": "Danh Triều Nam Kỳ Anh",
+            "text": "2A cũ",
+            "icon": "star"
+          },
+          {
+            "title": "Đỗ Trương Khánh Hoàn",
+            "text": "2C cũ",
+            "icon": "star"
+          },
+          {
+            "title": "Huỳnh Thanh Trí",
+            "text": "3A cũ",
+            "icon": "star"
+          },
+          {
+            "title": "Lý Ngọc Bảo Trân",
+            "text": "3C cũ",
+            "icon": "star"
+          },
+          {
+            "title": "Đỗ Trương Kim Hoàn",
+            "text": "4B cũ",
+            "icon": "star"
+          }
+        ]
+      },
+      "animationPreset": "education",
+      "transition": {
+        "type": "dissolve",
+        "duration": 700
+      },
+      "notes": "Đọc lần lượt tên từng em, mời lên sân khấu: Huỳnh Trung Tín (1B cũ); Danh Triều Nam Kỳ Anh (2A cũ); Đỗ Trương Khánh Hoàn (2C cũ); Huỳnh Thanh Trí (3A cũ); Lý Ngọc Bảo Trân (3C cũ); Đỗ Trương Kim Hoàn (4B cũ). Danh sách tiếp tục ở slide sau."
+    },
+    {
+      "id": "s11-danh-sach-2",
+      "section": "Học bổng",
+      "layout": "cardGrid",
+      "content": {
+        "eyebrow": "Danh sách học sinh nhận học bổng (2/2)",
+        "heading": "Cô mời các em",
+        "subheading": "Người trao: Cô Dương Thị Mười và Ông Mai Xuân Phương",
+        "items": [
+          {
+            "title": "Bùi Trọng Tâm",
+            "text": "4B cũ",
+            "icon": "star"
+          },
+          {
+            "title": "Trương Phú Hòa",
+            "text": "4C cũ",
+            "icon": "star"
+          },
+          {
+            "title": "Nguyễn Minh Đăng",
+            "text": "4C cũ",
+            "icon": "star"
+          },
+          {
+            "title": "[Họ tên – lớp]",
+            "icon": "star"
+          },
+          {
+            "title": "[Họ tên – lớp]",
+            "icon": "star"
+          }
+        ]
+      },
+      "animationPreset": "education",
+      "transition": {
+        "type": "fade",
+        "duration": 700
+      },
+      "notes": "Đọc tiếp: Bùi Trọng Tâm (4B cũ); Trương Phú Hòa (4C cũ); Nguyễn Minh Đăng (4C cũ); [Họ tên – lớp]; [Họ tên – lớp] – đủ 11 suất.\nXin mời cô Dương Thị Mười – Bí thư Đảng bộ, Hiệu trưởng nhà trường và Ông Mai Xuân Phương – Trưởng ban Ban đại diện cha mẹ học sinh trường TH&THCS THSP lên trao những phần quà Trung thu ý nghĩa cho các bạn nhỏ.\n— Sau khi trao: Xin cảm ơn cô Dương Thị Mười và Ông Mai Xuân Phương."
+    },
+    {
+      "id": "s12-hoc-bong-khuyet-tat",
+      "section": "Học bổng",
+      "hidden": true,
+      "layout": "singleColumn",
+      "content": {
+        "eyebrow": "Học bổng từ quỹ Chi đoàn",
+        "heading": "Học bổng cho em học sinh khuyết tật",
+        "subheading": "Trường Tiểu học Ngọc Tố 1",
+        "bullets": [
+          "01 suất học bổng 500.000 đồng",
+          "01 phần bánh Trung thu",
+          "Trích từ quỹ chi đoàn"
+        ]
+      },
+      "animationPreset": "apple",
+      "elements": [
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1620,
+          "y": 50,
+          "width": 220,
+          "height": 220,
+          "opacity": 0.85,
+          "zIndex": 1,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        }
+      ],
+      "transition": {
+        "type": "wipe",
+        "direction": "up",
+        "duration": 800
+      },
+      "notes": "Chưa chốt – bật lại nếu có trao.\nLưu ý nội bộ: cần xác nhận có thực hiện phần này hay không rồi chỉnh lại nội dung slide.\n(Phần chưa chốt) Ngoài 11 phần quà được trao cho học sinh khó khăn của trường THSP, chi đoàn còn trích quỹ tặng 01 suất học bổng trị giá 500.000 đồng và 01 phần bánh cho 01 em học sinh khuyết tật của Trường Tiểu học Ngọc Tố 1. Một lần nữa xin cảm ơn hoạt động ý nghĩa của chi đoàn, chúc cho các em học sinh khó khăn có một mùa Trung thu trọn vẹn, đong đầy yêu thương."
+    },
+    {
+      "id": "s13-thap-den-pha-co",
+      "section": "Thắp đèn – Phá cỗ",
+      "layout": "imageLeft",
+      "content": {
+        "eyebrow": "Thắp đèn – Phá cỗ",
+        "heading": "Thắp đèn Trung thu",
+        "body": "Đêm nay trăng sáng khắp nơi\nTrường ta mở hội Trăng rằm Trung Thu\nThắp đèn sáng toả ngôi sao\nCùng nhau phá cỗ, ngọt ngào tình thân.",
+        "image": {
+          "query": "mooncakes and tea on a tray",
+          "alt": "Bánh Trung thu và trà bày trên khay"
+        },
+        "caption": "Cắt bánh: Cô Dương Thị Mười cùng đồng chí [Họ tên đại biểu]"
+      },
+      "animationPreset": "apple",
+      "transition": {
+        "type": "fade",
+        "duration": 900
+      },
+      "notes": "[Kỹ thuật] MC đứng một bên sân khấu để đọc.\nKính thưa quý đại biểu, quý phụ huynh, quý thầy cô giáo cùng các em học sinh thân mến! Tiếp theo chương trình là phần thắp đèn – phá cỗ. Một lần nữa xin kính mời cô Dương Thị Mười – Hiệu trưởng nhà trường bước lên sân khấu để thực hiện nghi thức thắp đèn Trung thu với các em học sinh! (Các bạn nhỏ ơi, hãy cùng nhau thắp sáng những chiếc lồng đèn xinh xắn cùng cô Mười nào!)\n“Đêm nay trăng sáng khắp nơi / Trường ta mở hội Trăng rằm Trung Thu / Thắp đèn sáng toả ngôi sao / Cùng nhau phá cỗ, ngọt ngào tình thân.”\nSau đây xin phép mời lên sân khấu: Đồng chí [……] cùng với cô Dương Thị Mười – Bí thư Đảng bộ, Hiệu trưởng nhà trường bước đến vị trí đặt mâm cỗ để cắt bánh Trung thu! (Đoàn viên đi mời bánh đại biểu.)\n— Xin cảm ơn cô Dương Thị Mười và đồng chí [……]. Xin phép mời quý đại biểu, quý cha mẹ học sinh, quý thầy cô giáo cùng các em học sinh phá cỗ vui Trung thu và thưởng thức những chiếc bánh ngon cùng với nhà trường."
+    },
+    {
+      "id": "s14-mo-man-van-nghe",
+      "section": "Văn nghệ",
+      "layout": "cinematic",
+      "content": {
+        "eyebrow": "Trung thu cho em – Lồng đèn thắp sáng ước mơ",
+        "heading": "Mở màn văn nghệ",
+        "subheading": "Xin một tràng pháo tay thật lớn!",
+        "image": {
+          "query": "lion dance mid-autumn festival Vietnam",
+          "alt": "Múa lân đêm hội Trung thu ở Việt Nam"
+        }
+      },
+      "animationPreset": "cinematic",
+      "transition": {
+        "type": "wipe",
+        "direction": "up",
+        "duration": 1000
+      },
+      "notes": "VĂN NGHỆ\nCác em thân mến! Trăng rằm đã sáng, đèn lồng đã lung linh, và đêm hội Trung thu của chúng ta càng thêm rộn ràng khi có thêm lời ca, tiếng hát. Ngay sau đây, xin mời quý vị đại biểu, quý thầy cô, quý phụ huynh cùng các em thưởng thức những tiết mục văn nghệ thật vui tươi, đặc sắc trong chương trình “Trung thu cho em – Lồng đèn thắp sáng ước mơ”. Xin dành một tràng pháo tay thật lớn chào đón các tiết mục văn nghệ do các bạn học sinh trong đội văn nghệ nhà trường biểu diễn!"
+    },
+    {
+      "id": "s15-tiet-muc-01",
+      "title": "Tiết mục 1 – Trung Thu xuống phố",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.6,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1560,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$primary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 290,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 1**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Trung Thu xuống phố"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Múa**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: Khối 2"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "dissolve",
+        "duration": 900
+      },
+      "notes": "[Kỹ thuật] Nhạc lên → ra.\nTiết mục số 1: “Trung Thu xuống phố” – thể loại múa – Khối 2 biểu diễn. Xin mời quý vị thưởng thức."
+    },
+    {
+      "id": "s16-tiet-muc-02",
+      "title": "Tiết mục 2 – Ông trăng miệng cười",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.55,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 160,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$secondary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 330,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 2**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Ông trăng miệng cười"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Hát múa**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: Khối 4"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Ra trụ mới mở nhạc.\nTiết mục số 2: “Ông trăng miệng cười” – thể loại hát múa – Khối 4 biểu diễn."
+    },
+    {
+      "id": "s17-tiet-muc-03",
+      "title": "Tiết mục 3 – Thùng thình thùng thình + múa lân",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.65,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1000,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$primary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 290,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 3**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Thùng thình thùng thình + múa lân"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Nhảy**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: Khối 1"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Ra trụ trước mới mở nhạc.\nTiết mục số 3: “Thùng thình thùng thình + múa lân” – thể loại nhảy – Khối 1 biểu diễn."
+    },
+    {
+      "id": "s18-tiet-muc-04",
+      "title": "Tiết mục 4 – Biểu diễn thời trang",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.55,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1620,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$secondary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 330,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 4**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Biểu diễn thời trang"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Trình diễn**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: Khối 1"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Nhạc lên → ra.\nTiết mục số 4: “Biểu diễn thời trang” – thể loại trình diễn – Khối 1 biểu diễn. Sau tiết mục này là phần giao lưu cùng Chị Hằng – Chú Cuội."
+    },
+    {
+      "id": "s19-giao-luu-chi-hang-chu-cuoi",
+      "title": "Giao lưu cùng Chị Hằng – Chú Cuội",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.7,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 760,
+          "y": 10,
+          "width": 240,
+          "height": 240,
+          "opacity": 1,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          },
+          "animation": [
+            {
+              "effect": "pulse",
+              "trigger": "afterPrevious",
+              "duration": 1200,
+              "repeat": 2
+            }
+          ]
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$primary",
+            "stroke": {
+              "color": "$accent",
+              "width": 8,
+              "dash": "dash"
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1120,
+          "y": 290,
+          "width": 110,
+          "height": 110,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "img",
+          "type": "image",
+          "x": 1290,
+          "y": 280,
+          "width": 440,
+          "height": 340,
+          "zIndex": 4,
+          "content": {
+            "query": "Vietnamese children holding star lanterns under a full moon",
+            "alt": "Các em nhỏ cầm lồng đèn ông sao dưới trăng rằm"
+          },
+          "style": {
+            "fit": "cover",
+            "mask": "rounded",
+            "stroke": {
+              "color": "$accent",
+              "width": 4
+            }
+          },
+          "animation": [
+            {
+              "effect": "bounce",
+              "trigger": "afterPrevious",
+              "duration": 800
+            }
+          ]
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 880,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**GIAO LƯU**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 900,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Giao lưu cùng Chị Hằng – Chú Cuội"
+          },
+          "style": {
+            "fontSize": 80,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Vui nhộn**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 650,
+          "width": 1200,
+          "height": 100,
+          "zIndex": 5,
+          "content": {
+            "text": "“Chị Hằng ơi… Chú Cuội ơi… xuống chơi cùng chúng em!”"
+          },
+          "style": {
+            "fontSize": 40,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "GIAO LƯU CÙNG CHỊ HẰNG – CHÚ CUỘI\nCác em thân mến! Đêm Trung thu sẽ thật thiếu vắng nếu chỉ có trăng sáng, đèn xinh mà thiếu đi hai người bạn đặc biệt đã gắn liền với tuổi thơ của chúng ta. Các em có biết đó là ai không? Đúng rồi! Là Chị Hằng và Chú Cuội! Nghe nói hôm nay, hai người bạn ấy đã rời cung trăng, vượt qua cả một chặng đường xa để xuống đây vui Trung thu cùng chúng ta đấy! Nhưng… họ đang ở đâu nhỉ?\nChúng ta hãy cùng hô to để Chị Hằng và Chú Cuội xuống chơi cùng chúng ta nào: “Chị Hằng ơi… Chú Cuội ơi… xuống chơi cùng chúng em!” (2 lần)\nKết thúc giao lưu: Tạm biệt Chú Cuội và Chị Hằng về cung trăng, chúng ta cùng nhau tiếp tục thưởng thức các tiết mục văn nghệ đặc sắc của chương trình “Trung thu cho em”."
+    },
+    {
+      "id": "s20-tiet-muc-05",
+      "title": "Tiết mục 5 – Mashup Lý Nam bộ",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.55,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1560,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$secondary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 290,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 5**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Mashup Lý Nam bộ"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Nhảy**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: Khối 3"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Ra trụ mới mở nhạc.\nTiết mục số 5: “Mashup Lý Nam bộ” – thể loại nhảy – Khối 3 biểu diễn."
+    },
+    {
+      "id": "s21-tiet-muc-06",
+      "title": "Tiết mục 6 – Bánh Trung Thu",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.65,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 200,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$primary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 330,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 6**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Bánh Trung Thu"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Múa**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: Khối 2"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Nhạc lên → ra.\nTiết mục số 6: “Bánh Trung Thu” – thể loại múa – Khối 2 biểu diễn."
+    },
+    {
+      "id": "s22-tiet-muc-07",
+      "title": "Tiết mục 7 – Mashup Em bé Việt Nam – Máu đỏ da vàng",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.55,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1420,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$secondary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 290,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 7**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Mashup Em bé Việt Nam – Máu đỏ da vàng"
+          },
+          "style": {
+            "fontSize": 80,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Nhảy**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: 5C, 5D"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Ra trụ mới mở nhạc.\nTiết mục số 7: “Mashup Em bé Việt Nam – Máu đỏ da vàng” – thể loại nhảy – lớp 5C, 5D biểu diễn."
+    },
+    {
+      "id": "s23-tiet-muc-08",
+      "title": "Tiết mục 8 – Hồn Sen Việt",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.7,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1100,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$primary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 330,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 8**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Hồn Sen Việt"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Múa**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: SV CĐCĐ"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Mở nhạc → ra.\nTiết mục số 8: “Hồn Sen Việt” – thể loại múa – SV CĐCĐ biểu diễn."
+    },
+    {
+      "id": "s24-tiet-muc-09",
+      "title": "Tiết mục 9 – Trăng ới ời ơi",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.55,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1620,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$secondary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 290,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 9**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Trăng ới ời ơi"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Nhảy**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: Khối 3"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Ra trụ mới mở nhạc.\nTiết mục số 9: “Trăng ới ời ơi” – thể loại nhảy – Khối 3 biểu diễn."
+    },
+    {
+      "id": "s25-tiet-muc-10",
+      "title": "Tiết mục 10 – Mashup Trung Thu",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.65,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 300,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$primary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 330,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 10**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Mashup Trung Thu"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Múa**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: Khối 4"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Mở nhạc → ra.\nTiết mục số 10: “Mashup Trung Thu” – thể loại múa – Khối 4 biểu diễn."
+    },
+    {
+      "id": "s26-tiet-muc-11",
+      "title": "Tiết mục 11 – Thực hành Sư phạm ơi!",
+      "section": "Văn nghệ",
+      "background": {
+        "type": "color",
+        "color": "$background"
+      },
+      "elements": [
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 840,
+          "width": 1920,
+          "height": 240,
+          "opacity": 0.6,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1560,
+          "y": 20,
+          "width": 200,
+          "height": 200,
+          "opacity": 0.95,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "board",
+          "type": "shape",
+          "x": 120,
+          "y": 250,
+          "width": 1680,
+          "height": 520,
+          "zIndex": 3,
+          "content": {
+            "shape": "roundRect"
+          },
+          "style": {
+            "fill": "$secondary",
+            "stroke": {
+              "color": "$accent",
+              "width": 6
+            },
+            "radius": 36
+          }
+        },
+        {
+          "id": "lamp",
+          "type": "shape",
+          "x": 1560,
+          "y": 290,
+          "width": 150,
+          "height": 150,
+          "zIndex": 4,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          }
+        },
+        {
+          "id": "num",
+          "type": "text",
+          "x": 200,
+          "y": 290,
+          "width": 900,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "text": "**TIẾT MỤC 11**"
+          },
+          "style": {
+            "fontSize": 48,
+            "color": "$accent",
+            "letterSpacing": 4
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "onEnter",
+              "duration": 500
+            }
+          ]
+        },
+        {
+          "id": "name",
+          "type": "heading",
+          "x": 200,
+          "y": 390,
+          "width": 1300,
+          "height": 240,
+          "zIndex": 5,
+          "content": {
+            "text": "Thực hành Sư phạm ơi!"
+          },
+          "style": {
+            "fontSize": 84,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "afterPrevious",
+              "duration": 700,
+              "easing": "easeOut"
+            }
+          ]
+        },
+        {
+          "id": "genre",
+          "type": "shape",
+          "x": 200,
+          "y": 660,
+          "width": 320,
+          "height": 80,
+          "zIndex": 5,
+          "content": {
+            "shape": "pill",
+            "text": "**Nhảy**"
+          },
+          "style": {
+            "fill": "$accent",
+            "color": "$background",
+            "fontSize": 40
+          },
+          "animation": [
+            {
+              "effect": "pop",
+              "trigger": "afterPrevious",
+              "duration": 400
+            }
+          ]
+        },
+        {
+          "id": "class",
+          "type": "text",
+          "x": 560,
+          "y": 662,
+          "width": 1200,
+          "height": 76,
+          "zIndex": 5,
+          "content": {
+            "text": "Lớp biểu diễn: 5A, 5B"
+          },
+          "style": {
+            "fontSize": 44,
+            "color": "$text",
+            "verticalAlign": "middle"
+          },
+          "animation": [
+            {
+              "effect": "fadeIn",
+              "trigger": "afterPrevious",
+              "duration": 500
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "morph",
+        "duration": 1200
+      },
+      "notes": "[Kỹ thuật] Nhạc lên → ra.\nTiết mục số 11: “Thực hành Sư phạm ơi!” – thể loại nhảy – lớp 5A, 5B biểu diễn. Đây là tiết mục cuối của phần văn nghệ."
+    },
+    {
+      "id": "s27-be-mac-cam-on",
+      "section": "Bế mạc",
+      "layout": "minimalType",
+      "content": {
+        "eyebrow": "Bế mạc",
+        "heading": "Xin chân thành cảm ơn quý lãnh đạo, doanh nghiệp và cha mẹ học sinh",
+        "subheading": "Hẹn gặp lại vào Tết Trung thu năm sau!"
+      },
+      "animationPreset": "cinematic",
+      "elements": [
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1620,
+          "y": 40,
+          "width": 220,
+          "height": 220,
+          "opacity": 0.85,
+          "zIndex": 1,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "lotus",
+          "type": "decorative",
+          "x": 1500,
+          "y": 720,
+          "width": 360,
+          "height": 300,
+          "opacity": 0.5,
+          "zIndex": 1,
+          "content": {
+            "kind": "blob",
+            "colors": [
+              "#F8C8DC"
+            ]
+          }
+        },
+        {
+          "id": "waves",
+          "type": "decorative",
+          "x": 0,
+          "y": 930,
+          "width": 1920,
+          "height": 150,
+          "opacity": 0.6,
+          "zIndex": 1,
+          "content": {
+            "kind": "waves",
+            "colors": [
+              "$secondary",
+              "$accent"
+            ]
+          },
+          "animation": [
+            {
+              "effect": "floatIn",
+              "direction": "up",
+              "trigger": "onEnter",
+              "duration": 1200,
+              "easing": "easeOut"
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "fade",
+        "duration": 1000
+      },
+      "notes": "BẾ MẠC\nKính thưa quý đại biểu, khách quý, quý thầy cô giáo và các em học sinh thân mến! Để có buổi Trung thu thành công như ngày hôm nay, ngoài sự chuẩn bị chu đáo từ phía nhà trường là sự đồng hành từ quý lãnh đạo, doanh nghiệp, quý cha mẹ học sinh trường TH&THCS Thực hành Sư phạm. Một lần nữa xin chân thành cảm ơn quý vị đại biểu, quý phụ huynh, quý thầy cô giáo cùng các em học sinh đã tranh thủ thời gian đến đây để tham dự chương trình văn nghệ “Trung thu cho em”, chủ đề “Lồng đèn thắp sáng ước mơ” năm 2026 của trường Thực hành Sư phạm.\nChương trình đến đây là kết thúc. Xin chào tạm biệt và hẹn gặp lại các em vào Tết Trung thu năm sau!"
+    },
+    {
+      "id": "s28-chup-anh-luu-niem",
+      "section": "Bế mạc",
+      "layout": "closing",
+      "content": {
+        "eyebrow": "Trung thu cho em 2026",
+        "heading": "Chụp ảnh lưu niệm",
+        "cta": "Lồng đèn thắp sáng ước mơ",
+        "image": {
+          "query": "Vietnamese children holding star lanterns mid-autumn",
+          "alt": "Các em nhỏ cầm lồng đèn ông sao dưới ánh trăng rằm"
+        },
+        "body": "Kính mời quý lãnh đạo, quý đại biểu, quý thầy cô cùng chụp ảnh lưu niệm với nhà trường!"
+      },
+      "animationPreset": "apple",
+      "elements": [
+        {
+          "id": "moon",
+          "type": "decorative",
+          "x": 1620,
+          "y": 30,
+          "width": 240,
+          "height": 240,
+          "opacity": 0.9,
+          "zIndex": 2,
+          "content": {
+            "kind": "orb",
+            "colors": [
+              "$accent"
+            ]
+          }
+        },
+        {
+          "id": "lantern-1",
+          "type": "shape",
+          "x": 90,
+          "y": 60,
+          "width": 110,
+          "height": 110,
+          "zIndex": 3,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$accent"
+          },
+          "animation": [
+            {
+              "effect": "pulse",
+              "trigger": "afterPrevious",
+              "duration": 1200,
+              "repeat": 3
+            }
+          ]
+        },
+        {
+          "id": "lantern-2",
+          "type": "shape",
+          "x": 260,
+          "y": 130,
+          "width": 80,
+          "height": 80,
+          "zIndex": 3,
+          "content": {
+            "shape": "star5"
+          },
+          "style": {
+            "fill": "$primary"
+          },
+          "animation": [
+            {
+              "effect": "pulse",
+              "trigger": "withPrevious",
+              "duration": 1500,
+              "repeat": 3
+            }
+          ]
+        }
+      ],
+      "transition": {
+        "type": "zoom",
+        "duration": 1000
+      },
+      "notes": "Kính mời quý lãnh đạo, quý đại biểu, quý thầy cô cùng chụp ảnh lưu niệm với nhà trường!\nSlide kết thúc: giữ trên màn hình trong lúc chụp ảnh."
+    }
+  ]
+}
