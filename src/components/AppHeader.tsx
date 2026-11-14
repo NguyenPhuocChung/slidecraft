@@ -5,6 +5,7 @@ import { useUiTheme } from '@/hooks/useUiTheme';
 import { api, auth } from '@/services/api';
 import { MenuButton, Popover, cx } from './ui';
 import { LanguageSwitch } from './LanguageSwitch';
+import { DonateButton } from './DonateButton';
 import { useT } from '@/i18n';
 
 export function Logo({ small }: { small?: boolean }) {
@@ -56,6 +57,7 @@ export function AppHeader() {
           ))}
         </nav>
         <div className="ml-auto flex items-center gap-2">
+          <DonateButton />
           <LanguageSwitch />
           <button onClick={toggle} title={mode === 'dark' ? t('Light mode') : t('Dark mode')} className="flex h-8 w-8 items-center justify-center rounded-lg text-ink-500 hover:bg-ink-100 dark:text-ink-300 dark:hover:bg-ink-800" data-testid="theme-toggle">
             {mode === 'dark' ? <Sun size={16} /> : <Moon size={16} />}

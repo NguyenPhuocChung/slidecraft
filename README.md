@@ -106,6 +106,10 @@ Open an existing deck with **Import → Open PowerPoint (.pptx)**, by dropping a
 - **Approximated (listed in the report):** freeform shapes → vector graphics (SVG), SmartArt → group of shapes, elbow connectors → straight lines, uncommon transitions/animations → closest effect, merged table cells, 3-D/stock charts, rotated groups, equations → text.
 - **Not imported (placeholder + warning, text never dropped silently):** Office 2016 charts (waterfall/treemap/funnel…), EMF/WMF/TIFF pictures, OLE objects without a preview, ink, password-protected files, old binary `.ppt`.
 
+## Donate
+
+SlideCraft is free. The heart button **Ủng hộ / Donate** (top bar and editor, and *Help → Support the author* in the desktop app) shows a VietQR code for optional donations. To change the account, edit `DONATE` in `src/components/DonateButton.tsx` and replace `public/donate-qr.webp`.
+
 ## Security
 
 No user code execution (AST-only), SVG sanitization (DOMPurify), URL allow-listing (blocks `javascript:`, `file:`, html data URIs), upload type sniffing + size limits, server-side SVG/magic-byte validation, SSRF-safe image proxy (private IPs blocked after DNS resolution), helmet, CORS, rate limits, JWT with required secret in production, API keys only on the server.

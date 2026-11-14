@@ -6,6 +6,7 @@ import { useEditor } from '@/stores/editor';
 import { useUiTheme } from '@/hooks/useUiTheme';
 import { Button, IconButton, MenuButton, Popover, cx } from '@/components/ui';
 import { LanguageSwitch } from '@/components/LanguageSwitch';
+import { DonateButton } from '@/components/DonateButton';
 
 export interface TopBarActions { preview: () => void; present: (mode?: string) => void; exportOpen: () => void; share: () => void; settings: () => void; versions: () => void; quality: () => void; source?: () => void }
 
@@ -58,6 +59,7 @@ export function TopBar({ a }: { a: TopBarActions }) {
       <IconButton title={tr('Version history')} onClick={a.versions}><History size={16} /></IconButton>
       <IconButton title={ui.mode === 'dark' ? tr('Light mode') : tr('Dark mode')} onClick={ui.toggle}>{ui.mode === 'dark' ? <Sun size={16} /> : <Moon size={16} />}</IconButton>
       <LanguageSwitch compact />
+      <DonateButton compact />
       <IconButton title={tr('Settings & shortcuts')} onClick={a.settings} data-testid="settings"><Settings size={16} /></IconButton>
       <div className="mx-1 h-6 w-px bg-ink-200 dark:bg-ink-800" />
       <Button size="sm" icon={<Eye size={14} />} onClick={a.preview} data-testid="preview">{tr('Preview')}</Button>

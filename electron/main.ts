@@ -112,6 +112,7 @@ function buildMenu() {
       { label: L('Trung tâm Prompt', 'Prompt Center'), click: () => nav('/prompts') },
       { label: L('Tài liệu', 'Documentation'), click: () => nav('/docs') },
       { label: L('Phím tắt', 'Keyboard shortcuts'), click: () => nav('/docs/shortcuts') },
+      { label: L('Ủng hộ tác giả (quét mã QR)…', 'Support the author (donate)…'), click: () => nav('donate') },
       { type: 'separator' },
       { label: L('Giới thiệu SlideCraft', 'About SlideCraft'), click: () => void dialog.showMessageBox({ type: 'info', title: 'SlideCraft AI Studio', message: `SlideCraft AI Studio ${app.getVersion()}`, detail: L(`Dữ liệu được lưu tại:\n${app.getPath('userData')}`, `Your data is stored in:\n${app.getPath('userData')}`) }) },
     ] },

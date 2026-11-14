@@ -27,7 +27,7 @@ export async function initDesktop(): Promise<void> {
   if (!desktop) return;
   document.documentElement.dataset.desktop = 'true';
   try { const t = await desktop.getToken(); if (t) auth.token = t; } catch { /* keep working locally */ }
-  desktop.onNavigate((p) => go(p));
+  desktop.onNavigate((p) => (p === 'donate' ? window.dispatchEvent(new Event('slidecraft:donate')) : go(p)));
   desktop.onOpenPptx?.((bytes, name) => {
     toast.info(tr('Importing {name}…', { name }));
     void (async () => {

@@ -51,7 +51,8 @@ export function Modal({ open, onClose, title, children, width = 640, footer, tes
     return () => window.removeEventListener('keydown', k);
   }, [open, onClose]);
   if (!open) return null;
-  return (
+  // portal to <body>: an ancestor with backdrop-filter/transform would otherwise trap the fixed overlay
+  return createPortal(
     <div className="fixed inset-0 z-[100] flex items-center justify-center bg-ink-950/50 p-4 backdrop-blur-[2px]" onMouseDown={(e) => { if (e.target === e.currentTarget) onClose(); }} data-testid={testId}>
       <div className="flex max-h-[90vh] w-full flex-col overflow-hidden rounded-2xl border border-ink-200 bg-white shadow-2xl dark:border-ink-700 dark:bg-ink-900" style={{ maxWidth: width }} role="dialog" aria-modal="true">
         <div className="flex items-center justify-between border-b border-ink-100 px-5 py-3.5 dark:border-ink-800">
@@ -62,7 +63,7 @@ export function Modal({ open, onClose, title, children, width = 640, footer, tes
         {footer && <div className="flex items-center justify-end gap-2 border-t border-ink-100 px-5 py-3 dark:border-ink-800">{footer}</div>}
       </div>
     </div>
-  );
+  , document.body);
 }
 
 export function Field({ label, children, hint, className }: { label: ReactNode; children: ReactNode; hint?: ReactNode; className?: string }) {
