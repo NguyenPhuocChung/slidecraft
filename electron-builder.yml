@@ -1,0 +1,36 @@
+appId: app.slidecraft.studio
+productName: SlideCraft AI Studio
+copyright: SlideCraft
+directories:
+  app: desktop-app
+  output: release
+  buildResources: build
+files:
+  - dist/**
+  - dist-electron/**
+  - package.json
+asar: true
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  icon: build/icon.ico
+  artifactName: SlideCraft-Setup-${version}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: SlideCraft AI Studio
+  language: 1066
+  installerLanguages: [vi_VN, en_US]
+  multiLanguageInstaller: true
+linux:
+  target: [AppImage]
+  category: Office
+  icon: build/icon.png
+mac:
+  target: [dmg]
+  category: public.app-category.productivity
+publish: null

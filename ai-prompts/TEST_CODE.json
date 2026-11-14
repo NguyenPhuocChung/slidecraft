@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0",
+  "id": "demo-slidecraft",
+  "title": "Demo SlideCraft",
+  "language": "vi",
+  "aspectRatio": "16:9",
+  "theme": "startup-pitch",
+  "globalStyles": { "slideNumbers": true },
+  "slides": [
+    {
+      "id": "s1",
+      "layout": "title",
+      "content": { "eyebrow": "Demo · 2026", "heading": "Báo cáo kinh doanh quý 4", "subheading": "Tăng trưởng, thách thức và kế hoạch năm tới", "body": "Trình bày: Phòng Kế hoạch" },
+      "animationPreset": "apple",
+      "transition": { "type": "fade", "duration": 700 },
+      "notes": "Chào mọi người, hôm nay tôi trình bày kết quả quý 4."
+    },
+    {
+      "id": "s2",
+      "layout": "statistics",
+      "content": {
+        "eyebrow": "Kết quả",
+        "heading": "Ba con số quan trọng nhất",
+        "stats": [
+          { "value": "48 tỷ", "label": "Doanh thu năm", "text": "Tăng 18% so với năm trước" },
+          { "value": "1.240", "label": "Khách hàng", "text": "Thêm 260 khách mới" },
+          { "value": "92%", "label": "Hài lòng", "text": "Khảo sát 500 khách" }
+        ]
+      },
+      "animationPreset": "data",
+      "transition": { "type": "push", "direction": "left", "duration": 600 },
+      "notes": "Nhấn mạnh doanh thu tăng 18%."
+    },
+    {
+      "id": "s3",
+      "layout": "dataStory",
+      "content": {
+        "eyebrow": "Xu hướng",
+        "heading": "Doanh thu tăng đều qua từng quý",
+        "chart": {
+          "chartType": "column",
+          "categories": ["Q1", "Q2", "Q3", "Q4"],
+          "series": [{ "name": "Doanh thu (tỷ)", "values": [10, 11, 12, 15] }],
+          "valueSuffix": " tỷ",
+          "showLabels": true,
+          "source": "Số liệu minh họa"
+        },
+        "body": "Quý 4 tăng mạnh nhất nhờ chiến dịch cuối năm."
+      },
+      "animations": {
+        "heading": [{ "effect": "fadeIn", "trigger": "onEnter", "duration": 500 }],
+        "chart": [{ "effect": "wipe", "direction": "up", "trigger": "afterPrevious", "duration": 900 }],
+        "body": [{ "effect": "rise", "trigger": "onClick", "duration": 600 }]
+      },
+      "transition": { "type": "wipe", "direction": "left", "duration": 700 },
+      "notes": "Bấm chuột để hiện nhận định."
+    },
+    {
+      "id": "s4",
+      "layout": "infographic",
+      "content": {
+        "heading": "Quy trình bán hàng mới",
+        "diagram": {
+          "kind": "process",
+          "items": [
+            { "title": "Tiếp cận", "text": "Quảng cáo và giới thiệu" },
+            { "title": "Tư vấn", "text": "Demo sản phẩm" },
+            { "title": "Chốt đơn", "text": "Ký hợp đồng" },
+            { "title": "Chăm sóc", "text": "Hỗ trợ sau bán" }
+          ]
+        }
+      },
+      "animationPreset": "corporate",
+      "transition": { "type": "zoom", "duration": 800 }
+    },
+    {
+      "id": "s5",
+      "title": "Morph – trước",
+      "background": { "type": "color", "color": "$surface" },
+      "elements": [
+        { "id": "circle", "type": "shape", "x": 160, "y": 340, "width": 400, "height": 400, "content": { "shape": "ellipse", "text": "Hiện tại" }, "style": { "fill": "$primary", "fontSize": 40, "color": "#ffffff" } },
+        { "id": "title", "type": "heading", "x": 700, "y": 420, "width": 1060, "height": 200, "content": { "text": "Từ **một cửa hàng**…" }, "style": { "fontSize": 80 } }
+      ],
+      "transition": { "type": "fade", "duration": 600 },
+      "notes": "Slide tiếp theo dùng Morph: hình tròn sẽ di chuyển và đổi màu."
+    },
+    {
+      "id": "s6",
+      "title": "Morph – sau",
+      "background": { "type": "color", "color": "$surface" },
+      "elements": [
+        { "id": "circle", "type": "shape", "x": 1260, "y": 160, "width": 520, "height": 520, "content": { "shape": "ellipse", "text": "Năm 2027" }, "style": { "fill": "$accent", "fontSize": 48, "color": "#ffffff" } },
+        { "id": "title", "type": "heading", "x": 160, "y": 420, "width": 1000, "height": 200, "content": { "text": "…đến ==10 cửa hàng==" }, "style": { "fontSize": 96 } },
+        { "id": "icon", "type": "icon", "x": 160, "y": 700, "width": 120, "height": 120, "content": { "name": "rocket" }, "style": { "color": "$primary" }, "animation": [{ "effect": "pop", "trigger": "afterPrevious", "delay": 300, "duration": 600 }] }
+      ],
+      "transition": { "type": "morph", "duration": 1200 }
+    },
+    {
+      "id": "s7",
+      "layout": "closing",
+      "content": { "heading": "Cảm ơn!", "subheading": "Câu hỏi & thảo luận", "cta": "Liên hệ: kehoach@congty.vn" },
+      "animationPreset": "creative",
+      "transition": { "type": "cube", "duration": 900 }
+    }
+  ]
+}

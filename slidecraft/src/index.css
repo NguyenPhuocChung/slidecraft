@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+.dark { color-scheme: dark; }
+html, body, #root { height: 100%; }
+body { @apply bg-white text-ink-900 antialiased dark:bg-ink-950 dark:text-ink-100; font-family: Inter, "Be Vietnam Pro", system-ui, sans-serif; font-feature-settings: "cv11", "ss01"; }
+* { scrollbar-width: thin; scrollbar-color: rgba(127,127,127,.35) transparent; }
+.katex { font-size: 1em !important; }
+.katex-display { margin: 0 !important; }
+[data-slide-canvas] { -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+[data-slide-canvas] [contenteditable="true"] { caret-color: #6366f1; }
+[data-slide-canvas] [contenteditable="true"] ::selection { background: rgba(99,102,241,.3); }
+.thumb-shadow { box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 0 0 1px rgba(0,0,0,.06); }
+.cm-editor { height: 100%; font-size: 13px; }
+.cm-editor.cm-focused { outline: none !important; }
+@keyframes laser-pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.25); } }

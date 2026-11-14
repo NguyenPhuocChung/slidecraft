@@ -3,4 +3,8 @@ export default {
     tailwindcss: {},
     autoprefixer: {},
   },
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> origin/master

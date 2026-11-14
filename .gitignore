@@ -22,3 +22,17 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
+=======
+
+# SlideCraft
+dist
+coverage
+test-results
+playwright-report
+server/uploads
+server/data
+.env
+desktop-app
+release
+>>>>>>> origin/master

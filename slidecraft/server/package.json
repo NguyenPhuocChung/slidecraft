@@ -1,0 +1,12 @@
+{
+  "name": "slidecraft-server",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SlideCraft AI Studio REST API (dependencies are installed from the repository root package.json)",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "start": "tsx index.ts",
+    "test": "cd .. && vitest run server/tests"
+  }
+}
