@@ -22,8 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-<<<<<<< HEAD
-=======
 
 # SlideCraft
 dist
@@ -35,4 +33,3 @@ server/data
 .env
 desktop-app
 release
->>>>>>> origin/master

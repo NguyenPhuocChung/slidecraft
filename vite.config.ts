@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import path from 'path';
-
-export default defineConfig({
-  plugins: [react()],
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
-  server: {
-    port: 5173,
-    host: true,
-=======
 /// <reference types="vitest" />
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
@@ -44,6 +28,5 @@ export default defineConfig({
     environment: 'node',
     include: ['tests/unit/**/*.test.ts', 'server/tests/**/*.test.ts'],
     testTimeout: 30000,
->>>>>>> origin/master
   },
 });

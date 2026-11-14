@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-/** App entry is handled by main.tsx + router. Kept for Vite template compatibility. */
-export default function App() {
-  return null;
-=======
 import { lazy, Suspense } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { Toaster } from '@/components/ui';
@@ -45,5 +40,4 @@ export default function App() {
       <Toaster />
     </BrowserRouter>
   );
->>>>>>> origin/master
 }

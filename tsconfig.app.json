@@ -5,24 +5,6 @@
     "useDefineForClassFields": true,
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
-<<<<<<< HEAD
-    "types": ["vite/client"],
-    "skipLibCheck": true,
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "strict": true,
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-=======
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -42,7 +24,6 @@
     "baseUrl": ".",
     "paths": { "@/*": ["src/*"] },
     "types": ["vite/client"]
->>>>>>> origin/master
   },
   "include": ["src"]
 }
